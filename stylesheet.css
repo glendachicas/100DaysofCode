@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+}
+.dayOnePics{
+
+}
+.imageOne{
+    display: flex;
+    width: 250px;
+    height: auto;
+}
+
+.imageTwo{
+    display:flex;
+    width: 250px;
+    height: auto;
+}
