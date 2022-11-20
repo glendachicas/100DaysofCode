@@ -1,9 +1,44 @@
+/* start of styling for notebook design */
+.noteTitle{
+    color: green;
+    text-align: center;
+    letter-spacing: -2px;
+}
+
+.listItemClass{
+    color:black;
+    font-size: 21px;
+    padding: 0;
+    width: 500px;
+    border: 2px solid black;
+}
+
+.listItemClass li {
+    list-style: none;
+    border-bottom: 2px dotted black;
+    text-indent: 20px;
+    height: auto;
+    padding: 10px;
+}
+
+.listItemClass li:hover{
+    background-color: wheat;
+}
+
+.verticleLines{
+    width: 2px;
+    float: left;
+    height: 425px;
+    margin-left: 35px;
+    border-left: 1 px solid black;
+    border-right: 1px solid black;
+}
+/* End */
+
 h1{
     text-align: center;
 }
-.dayOnePics{
 
-}
 .imageOne{
     display: flex;
     width: 250px;
@@ -14,4 +49,10 @@ h1{
     display:flex;
     width: 250px;
     height: auto;
+}
+
+.contactUpdate1 {
+    display: flex;
+    width: 250px;
+    height:auto;
 }
