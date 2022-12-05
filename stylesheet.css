@@ -1,4 +1,11 @@
 /* start of styling for notebook design */
+body{
+    background-color: #fff; 
+    background-image: 
+    linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+    linear-gradient(#eee .1em, transparent .1em);
+    background-size: 100% 1.2em;
+}
 .noteTitle{
     color: green;
     text-align: center;
@@ -8,15 +15,16 @@
 .listItemClass{
     color:black;
     font-size: 21px;
-    padding: 0;
+    padding: auto;
     width: 500px;
-    border: 2px solid black;
+    text-align: center;
+    /* border: 4px solid black; */
 }
 
 .listItemClass li {
     list-style: none;
     border-bottom: 2px dotted black;
-    text-indent: 20px;
+    text-indent: 50px;
     height: auto;
     padding: 10px;
 }
@@ -43,6 +51,7 @@ h1{
     display: flex;
     width: 250px;
     height: auto;
+
 }
 
 .imageTwo{
